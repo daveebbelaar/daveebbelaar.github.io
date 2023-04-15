@@ -24,8 +24,8 @@
   /* gradient */
 
   --bg-gradient-onyx: linear-gradient(to bottom right,
-      hsl(240, 1%, 25%) 3%,
-      hsl(0, 0%, 19%) 97%);
+      ##13111a 3%,
+      ##13111a 97%);
   --bg-gradient-jet: linear-gradient(to bottom right,
       hsla(240, 1%, 18%, 0.251) 0%,
       hsla(240, 2%, 11%, 0) 100%), hsl(240, 2%, 13%);
@@ -33,28 +33,31 @@
       hsl(45, 100%, 71%) 0%,
       hsla(36, 100%, 69%, 0) 50%);
   --bg-gradient-yellow-2: linear-gradient(135deg,
-      hsla(45, 100%, 71%, 0.251) 0%,
+      hsla(45, 88%, 44%, 0.251) 0%,
       hsla(35, 100%, 68%, 0) 59.86%), hsl(240, 2%, 13%);
   --border-gradient-onyx: linear-gradient(to bottom right,
       hsl(0, 0%, 25%) 0%,
       hsla(0, 0%, 25%, 0) 50%);
   --text-gradient-yellow: linear-gradient(to right,
-      hsl(45, 100%, 72%),
-      hsl(35, 100%, 68%));
+      #ff4895,
+      #6e4fe9);
 
   /* solid */
 
-  --jet: hsl(0, 0%, 22%);
-  --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: hsl(0, 0%, 7%);
+  --jet: #302c3f;
+  --onyx: #302c3f;
+  /* banner icons */
+  --eerie-black-1: #302c3f;
+  /* sections */
+  --eerie-black-2: #1d1a27;
+  /* background */
+  --smoky-black: #13111a;
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
+  --orange-yellow-crayola: #B7B4C7;
   --vegas-gold: hsl(45, 54%, 58%);
-  --light-gray: hsl(0, 0%, 84%);
-  --light-gray-70: hsla(0, 0%, 84%, 0.7);
+  --light-gray: #b7b4c7;
+  --light-gray-70: #ffffff;
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
   /**
@@ -98,8 +101,6 @@
   --transition-2: 0.5s ease-in-out;
 
 }
-
-
 
 
 
@@ -390,7 +391,7 @@ main {
   border-radius: 0 15px;
   font-size: 13px;
   color: var(--orange-yellow-crayola);
-  background: var(--border-gradient-onyx);
+  background: #302C3F;
   padding: 10px;
   box-shadow: var(--shadow-2);
   transition: var(--transition-1);
@@ -402,20 +403,20 @@ main {
   position: absolute;
   inset: 1px;
   border-radius: inherit;
-  background: var(--bg-gradient-jet);
+  background: #302C3F;
   transition: var(--transition-1);
   z-index: -1;
 }
 
-.info_more-btn:hover,
+/* .info_more-btn:hover,
 .info_more-btn:focus {
   background: var(--bg-gradient-yellow-1);
-}
+} */
 
-.info_more-btn:hover::before,
+/* .info_more-btn:hover::before,
 .info_more-btn:focus::before {
   background: var(--bg-gradient-yellow-2);
-}
+} */
 
 .info_more-btn span {
   display: none;
@@ -498,7 +499,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
+  background: #302C3F;
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
