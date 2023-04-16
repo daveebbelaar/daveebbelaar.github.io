@@ -56,9 +56,9 @@
   --white-1: #b7b4c7;
   --white-2: #ffffff;
   --orange-yellow-crayola: #B7B4C7;
-  --vegas-gold: hsl(45, 54%, 58%);
+  --vegas-gold: #ffffff;
   --light-gray: #b7b4c7;
-  --light-gray-70: #ffffff;
+  --white: #ffffff;
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
   /**
@@ -316,7 +316,7 @@ article.active {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
+  /* background: var(--default-card); */
   border-radius: inherit;
   z-index: -1;
 }
@@ -453,7 +453,7 @@ main {
 }
 
 .contact-title {
-  color: var(--light-gray-70);
+  color: var(--white);
   font-size: var(--fs-8);
   text-transform: uppercase;
   margin-bottom: 2px;
@@ -478,7 +478,7 @@ main {
 }
 
 .social-item .social-link {
-  color: var(--light-gray-70);
+  color: var(--white);
   font-size: 18px;
 }
 
@@ -525,11 +525,11 @@ main {
 
 .navbar-link:hover,
 .navbar-link:focus {
-  color: var(--light-gray-70);
+  color: var(--white);
 }
 
 .navbar-link.active {
-  color: var(--orange-yellow-crayola);
+  color: var(--white);
 }
 
 
@@ -577,7 +577,7 @@ main {
 
 .service-item {
   position: relative;
-  background: var(--default-card);
+  /* background: var(--default-card); */
   background: var(--border-gradient-onyx);
   padding: 20px;
   border-radius: 14px;
@@ -589,7 +589,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--default-card);
+  /* background: var(--default-card); */
   border-radius: inherit;
   z-index: -1;
 }
@@ -787,7 +787,7 @@ main {
 
 .modal-content time {
   font-size: var(--fs-6);
-  color: var(--light-gray-70);
+  color: var(--white);
   font-weight: var(--fw-300);
   margin-bottom: 10px;
 }
@@ -908,7 +908,7 @@ main {
   left: -33px;
   height: 6px;
   width: 6px;
-  background: var(--text-gradient-yellow);
+  background: var(--white-1);
   border-radius: 50%;
   box-shadow: 0 0 0 4px var(--jet);
 }
@@ -1140,7 +1140,7 @@ main {
 }
 
 .project-category {
-  color: var(--light-gray-70);
+  color: var(--white);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
@@ -1212,13 +1212,13 @@ main {
 }
 
 .blog-meta :is(.blog-category, time) {
-  color: var(--light-gray-70);
+  color: var(--white);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
 
 .blog-meta .dot {
-  background: var(--light-gray-70);
+  background: var(--white);
   width: 4px;
   height: 4px;
   border-radius: 4px;
@@ -1847,7 +1847,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .filter-item button:hover {
-    color: var(--light-gray-70);
+    color: var(--white);
   }
 
   .filter-item button.active {
